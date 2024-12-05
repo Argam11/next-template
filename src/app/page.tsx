@@ -10,6 +10,7 @@ export default function Home() {
           alt="Next.js logo"
           width={180}
           height={38}
+          style={{ width: '180px', height: 'auto' }}
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
@@ -36,6 +37,7 @@ export default function Home() {
               alt="Vercel logomark"
               width={20}
               height={20}
+              style={{ width: '20px', height: 'auto' }}
             />
             Deploy now
           </a>
